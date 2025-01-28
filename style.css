@@ -133,7 +133,7 @@ body {
   font-size: 12px;
 }
 
-.section-playlist__content .section-playlist__content__button {
+.section-playlist__content .section-playlist__button {
   display: flex;
   justify-content: center;
   background-color: var(--white);
@@ -175,4 +175,46 @@ body {
   margin: 8px;
   padding: 8px;
   border-radius: 20px;
+}
+
+.disclaimer-premium {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, #ff4d00, #ff8a00);
+  padding: 15px 40px;
+}
+
+.disclaimer-premium .text {
+  flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+  color: var(--white);
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.disclaimer-premium button {
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 30px;
+  border: 0px;
+  text-decoration: none;
+  text-transform: none;
+  cursor: pointer;
 }
