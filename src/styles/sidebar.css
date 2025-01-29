@@ -1,16 +1,4 @@
-:root {
-  --black: #000;
-  --grey-900: #121212;
-  --grey-700: #242424;
-  --grey-600: #878787;
-  --grey-400: #b3b3b3;
-  --gray-100: #f4f4f4;
-  --white: #fff;
-}
 
-body {
-  background-color: var(--black);
-}
 
 .sidebar {
   position: fixed;
@@ -52,7 +40,6 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: DM Sans, sans-serif;
 }
 
 .library {
@@ -82,7 +69,6 @@ body {
   border: 0px;
   font-size: 14px;
   font-weight: 700;
-  font-family: DM Sans, sans-serif;
   text-align: center;
   text-decoration: none;
   padding: 20px 10px;
@@ -121,7 +107,6 @@ body {
 .section-playlist__content .text {
   padding-bottom: 14px;
   color: var(--white);
-  font-family: "DM Sans", sans-serif;
 }
 
 .section-playlist__content text title {
@@ -141,7 +126,6 @@ body {
   border-radius: 20px;
   font-size: 12px;
   font-weight: 700;
-  font-family: "DM Sans", sans-serif;
   text-decoration: none;
   text-transform: none;
   padding: 10px;
@@ -177,44 +161,3 @@ body {
   border-radius: 20px;
 }
 
-.disclaimer-premium {
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to right, #ff4d00, #ff8a00);
-  padding: 15px 40px;
-}
-
-.disclaimer-premium .text {
-  flex-shrink: 0;
-}
-
-.disclaimer-premium .disclaimer-premium__title {
-  color: var(--white);
-  font-size: 12px;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-
-.disclaimer-premium .disclaimer-premium__subtitle {
-  color: var(--white);
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.disclaimer-premium button {
-  background-color: var(--white);
-  color: var(--black);
-  border-radius: 40px;
-  font-size: 16px;
-  font-weight: 700;
-  padding: 14px 30px;
-  border: 0px;
-  text-decoration: none;
-  text-transform: none;
-  cursor: pointer;
-}
