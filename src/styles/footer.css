@@ -35,7 +35,7 @@
   font-weight: 700;
   padding: 14px 30px;
   border: 0px;
-  text-decoration: none;
-  text-transform: none;
   cursor: pointer;
+  flex-shrink: 0;
+  margin-top: 0.7rem;
 }
